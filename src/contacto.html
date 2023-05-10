@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <title>Ajedrez House - Juega y Aprende con amigos</title>
+    <meta name="description" content="Aprende a jugar al ajedrez con tus amigos en este portal dedicado a este apasionante juego"/>
+  </head>
+  <body>
+    <!-- Menú principal -->
+    <header class="header">
+      <nav class="header_principal">
+        <div class="contenedor">
+          <a class="nav-logo" href="index.html">
+            <img src="./assets/images/logo.png" class="nav-logo-img" alt="Logo Ajedrez" />
+          </a>
+          <ul class="menu-nav">
+            <li class="li-nav">
+              <a class="a-nav" href="miembros.html">Miembros</a>
+            </li>
+            <li class="li-nav">
+              <a class="a-nav" href="blog.html">Blog</a>
+            </li>
+            <li class="li-nav">
+              <a class="a-nav" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Hero -->
+
+    <section class="hero">
+      <div class="contenedor-hero">
+        <div class="contenido-hero">
+          <h1 class="titular-hero">Contacta con nosotros</h1>
+          <p class="p-hero">
+            Si quieres formar parte del club o solicitar más información,
+            rellena el formulario de contacto que ponemos a tu disposición:
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulario -->
+    <div class="contenedor-form">
+      <div class="titular-formulario">
+        <h1>Formulario de contacto</h1>
+      </div>
+      <form>
+        <div class="formulario">
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            class="fullname"
+            placeholder="Nombre completo"
+            required
+          />
+        </div>
+        <div class="formulario">
+          <label for="email">Email</label>
+          <input type="email" class="email" placeholder="Email" required />
+        </div>
+        <div class="formulario">
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            type="message"
+            placeholder="Escribe tu mensaje aquí"
+            rows="4"
+          ></textarea>
+          
+        </div>  <!-- Elemento 1 Bootstrap -->
+        <div class="formulario btn-formulario">
+          <button type="button" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+    <h2 class="preguntas">Preguntas frecuentes</h2>
+    <!-- Elemento 2 Bootstrap -->
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            ¿Qué requisitos tiene el club?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Para entrar al club, es obligatorio pagar una mensualidad de 5 euros, que nos servirá para mantener el portal web en el que te encuentras, organizar eventos con muchos más participantes∫ y ofrecer un contenido de mayor calidad a todas las personas que apoyan el proyecto.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            ¿Hay una edad recomendada?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>El ajedrez es un juego para todo tipo de públicos, por lo que no hay una edad estipulada para entrar al club. Sin embargo, a la hora de organizar eventos, si nos gusta separar por rangos de edad para garantizar que la experiencia sea más satisfactoria para el jugador.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            ¿Cada cuanto se organizan eventos?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Nos gusta organizar al menos un torneo al mes, pero la comunidad se mantiene activa quedando cada uno por su cuenta y realizando actividades que se salen del propio juego. Explora las redes sociales para estar al tanto de todas las novedades que publican nuestros miembros.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <nav class="footer-menu">
+        <div class="contenedor">
+          <a class="logo-footer" href="index.html">
+            <img src="./assets/images/logo.png" class="nav-logo-img" alt="Logo Ajedrez" />
+          </a>
+          <!-- Central -->
+          <ul class="menu-nav">
+            <li class="li-nav">
+              <a class="a-nav" href="index.html">Inicio</a>
+            </li>
+            <li class="li-nav">
+              <a class="a-nav" href="miembros.html">Miembros</a>
+            </li>
+            <li class="li-nav">
+              <a class="a-nav" href="blog.html">Blog</a>
+            </li>
+            <li class="li-nav">
+              <a class="a-nav" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <!-- RRSS -->
+          <ul class="menu-nav">
+            <li class="li-nav">
+              <a class="a-nav" href="https://google.com/"
+                ><i class="fa-brands fa-google" style="color: #ffffff"></i
+              ></a>
+            </li>
+            <li class="li-nav">
+              <a class="a-nav" href="https://facebook.com/"
+                ><i class="fa-brands fa-facebook-f" style="color: #ffffff"></i
+              ></a>
+            </li>
+            <li class="li-nav">
+              <a class="a-nav" href="https://twitter.com/"
+                ><i class="fa-brands fa-twitter" style="color: #ffffff"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>
